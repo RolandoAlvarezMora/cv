@@ -1,0 +1,142 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    font-family:  'Arial', sans-serif;;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Helvetica', sans-serif;
+}
+h3{
+    font-family: 'Helvetica', sans-serif;
+}
+
+span{
+    display: block;
+}
+
+.contenedor{
+    max-width: 100%;
+}
+.background{
+    background-color: bisque;
+    padding: 1rem;
+}
+
+
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Experiencia_profesional{
+    grid-column: 2;
+    margin-top: 0;
+    margin-bottom: 0; 
+    
+}
+.Educacion{
+    grid-column: 2;
+    margin-top: 1rem;
+}
+.Habilidades{
+    grid-column: 2 ;
+}
+aside{
+    margin-left: 1rem;
+}
+.FN{
+    display: block;
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.INFP{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+aside h3{
+    margin-top: 0;
+}
+span{
+    margin: 1rem;
+}
+.contacto{
+    margin-top: 1rem;
+}
+.Descripcion p{
+    margin-bottom: 0;
+    
+}
+.sitios{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.github{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+@media (max-width: 768px) {
+    .contenido {
+        grid-template-columns: 100%; 
+        grid-gap: 1rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+    
+    .INFP, .sitios {
+        font-size: 1.8rem;
+    }
+    
+    body {
+        font-size: 1.4rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    .contenido {
+        grid-template-columns: 100%; 
+    }
+
+    .background {
+        padding: 1.5rem;
+        
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+}
+hr{
+    color:bisque ;
+    width: 50%;
+    margin-left: 0;
+}
